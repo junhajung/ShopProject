@@ -9,7 +9,13 @@ RDBMS인 Oracle과 Spring FrameWork를 활용하여 구현한 웹 사이트이�
 약 2주 소요, 1인 프로젝트  
 
 ### 사용언어
-Java, Jsp, Html, css, Jpa  
+Java, Jsp, Html, css, Jpa 
+
+## Use Case
+![image](https://user-images.githubusercontent.com/48474613/132299437-9148519e-bcfa-4891-bfd9-e74f46a00c00.png)
+
+## ERD
+![image](https://user-images.githubusercontent.com/48474613/132299458-9a35adf6-88a6-4ba6-a21d-2ea4aeed2ea3.png)
 
 ## Intallation
 
@@ -21,3 +27,7 @@ Java, Jsp, Html, css, Jpa
 * Spring Version - 2.4.4
 
 * * *
+
+### 마치면서 아쉬운 부분
+처음 데이터베이스를 설계할 때 Product table의 pk를 String인 name값으로 설정을 해버려서 제약사항이 많았습니다.  
+혹시 제 코드를 참조하신다면 pk를 AutoIncrease 되는 index를 활용하여 재구현하시길 바랍니다.
