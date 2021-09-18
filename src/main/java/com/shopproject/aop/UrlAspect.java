@@ -1,4 +1,4 @@
-package com.example.aop;
+package com.shopproject.aop;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;

@@ -1,5 +1,4 @@
-package com.example.entity;
-
+package com.shopproject.entity;
 
 import java.util.ArrayList;
 import java.util.Arrays;

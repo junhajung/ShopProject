@@ -1,4 +1,5 @@
-package com.example.security;
+package com.shopproject.security;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

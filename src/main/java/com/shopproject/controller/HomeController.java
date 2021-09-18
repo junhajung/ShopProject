@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.shopproject.controller;
 
 
 
@@ -16,12 +16,12 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.example.entity.Kategorie;
-import com.example.entity.Notice;
-import com.example.entity.Product;
-import com.example.repository.KategorieRepository;
-import com.example.repository.NoticeRepository;
-import com.example.repository.ProductRepository;
+import com.shopproject.entity.Kategorie;
+import com.shopproject.entity.Notice;
+import com.shopproject.entity.Product;
+import com.shopproject.repository.KategorieRepository;
+import com.shopproject.repository.NoticeRepository;
+import com.shopproject.repository.ProductRepository;
 
 
 @Controller

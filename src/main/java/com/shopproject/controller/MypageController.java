@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.shopproject.controller;
 
 import java.io.IOException;
 import java.util.Base64;
@@ -17,19 +17,19 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.example.entity.Cart;
-import com.example.entity.Kategorie;
-import com.example.entity.Member;
-import com.example.entity.Order;
-import com.example.entity.Product;
-import com.example.entity.QNA;
-import com.example.repository.CartRepository;
-import com.example.repository.KategorieRepository;
-import com.example.repository.MemberRepository;
-import com.example.repository.OrderRepository;
-import com.example.repository.ProductRepository;
-import com.example.repository.QnaRepository;
-import com.example.security.MyUser;
+import com.shopproject.entity.Cart;
+import com.shopproject.entity.Kategorie;
+import com.shopproject.entity.Member;
+import com.shopproject.entity.Order;
+import com.shopproject.entity.Product;
+import com.shopproject.entity.QNA;
+import com.shopproject.repository.CartRepository;
+import com.shopproject.repository.KategorieRepository;
+import com.shopproject.repository.MemberRepository;
+import com.shopproject.repository.OrderRepository;
+import com.shopproject.repository.ProductRepository;
+import com.shopproject.repository.QnaRepository;
+import com.shopproject.security.MyUser;
 
 @Controller
 @RequestMapping(value = "/mypage")
@@ -127,7 +127,6 @@ public class MypageController {
 
 					}
 				}
-
 				model.addAttribute("orderlist", orderlist);
 
 			}

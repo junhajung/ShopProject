@@ -1,4 +1,4 @@
-package com.example.security;
+package com.shopproject.security;
 
 import java.io.IOException;
 import java.util.Collection;

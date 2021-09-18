@@ -1,4 +1,5 @@
-package com.example.security;
+package com.shopproject.security;
+
 
 import java.util.Collection;
 
@@ -10,8 +11,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.example.entity.Member;
-import com.example.repository.MemberRepository;
+import com.shopproject.entity.Member;
+import com.shopproject.repository.MemberRepository;
 
 
 
